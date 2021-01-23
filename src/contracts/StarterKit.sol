@@ -5,7 +5,6 @@ contract StarterKit {
     uint public postCount = 0;
     mapping(uint => Post) public posts;  // Key value store, writes information to the blockchain itself
 
-
     struct Post {
         uint id; // Uniqe ID can't be negative integer
         string content;
